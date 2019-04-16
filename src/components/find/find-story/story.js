@@ -17,7 +17,7 @@ class FindStory extends React.Component{
       }
     render(){
         let {story} = this.props ;
-        console.log(story)
+        // console.log(story)
         return (   
             <div>
                 <div className="list">

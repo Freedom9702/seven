@@ -10,7 +10,7 @@ class PayMoney extends React.Component{
     constructor(props){
         super();
         this.data = querystring.parse(props.location.search).dataName;
-        console.log(props.match)
+        // console.log(props.match)
         // props.getHotel(props.match.params.id,this.data)
       }
     render(){

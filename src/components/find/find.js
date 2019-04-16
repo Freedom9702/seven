@@ -6,7 +6,7 @@ import FindSpecial from "./find-special/special"
 import FindStory from "./find-story/story"
 import FindStrategy from "./find-strategy/strategy"
 import FindTalk from "./find-talk/talk"
-
+//我已经修改过了代码
 export default class Find extends React.Component{
     render(){
         return(

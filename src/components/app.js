@@ -2,7 +2,7 @@ import React from "react" ;
 import "./hoem/home.css" 
 import {Route,Redirect,Switch} from 'react-router-dom'
 
-
+//这里也删了代码了
 import Home from "../components/hoem/home"      // home页
 import BannerDetail from "../components/hoem/home-banner-dtl/detail"    //home轮播图详情页
 import ListDetail from "../components/hoem/home-list-dtl/detail"        //home列表详情页

@@ -21,9 +21,6 @@ class Did extends React.Component{
       }
     render(){
         let {page_data} = this.props.order;
-        
-        // console.log(this.props.order1)
-        // console.log(page_data)
         return(
             <div className="o-list">
                 <ul>
@@ -51,7 +48,7 @@ class Did extends React.Component{
     componentDidMount(props){
         this.props.get({q:"张三"});
         this.props.getHotel();
-        setTimeout(()=>{console.log(this.props.order)},100)
+        // setTimeout(()=>{console.log(this.props.order)},100)
         
         
     }
