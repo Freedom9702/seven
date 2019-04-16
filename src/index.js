@@ -14,7 +14,7 @@ import {BrowserRouter,Route} from 'react-router-dom' //引用路由
 import config from './config'
 
 window.baseUrl = config.baseUrl.http;
-
+//暴露全局 baseUrl//暴露全局 baseUrl//暴露全局 baseUrl//暴露全局 baseUrl//暴露全局 baseUrl//暴露全局 baseUrl//暴露全局 baseUrl//暴露全局 baseUrl
 
 ReactDom.render(
   <Provider store={store}>
