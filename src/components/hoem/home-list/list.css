@@ -1,0 +1,34 @@
+@charset "utf-8" ;
+.margin{
+	width: 3.94rem;
+	margin: 0 auto;
+}
+.home_list h3{
+	font: .14rem/.3rem "";
+	color: #999;
+}
+.home_list ul{
+	display: flex;
+	justify-content:space-around;
+	align-items:center;
+}
+.home_list ul li{
+	margin-bottom: .4rem;
+	width: 1.2rem;
+	height: 1.1rem;
+}
+.home_list ul li a{
+	display: block;
+	width: 1.2rem;
+	height: .8rem;
+}
+.home_list ul li a img{
+	display: block;
+	width: 1.2rem;
+	height: .8rem;
+}
+.home_list ul li p{
+	text-align: center;
+	font: .14rem/.3rem "";
+	color: #999;
+}

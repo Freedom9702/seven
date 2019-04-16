@@ -1,0 +1,22 @@
+.list{width:100%;overflow: hidden;}
+.list ul li {height: 2rem;width:100%;border-bottom:.01rem solid rgba(82, 81, 81, .5);margin-top: 0.1rem}
+.list ul li .list-top img{width: 3.94rem;height: 1.39rem;display: block;margin-left:.1rem;}
+.list ul li .list-bottom {height: .6rem;width: 100%;}
+.list ul li .list-bottom p{margin-left: .1rem; height: .3rem;line-height: .2rem;
+    background-color: rgba(255, 255, 255, 0);color: rgba(16, 16, 16, 1);font-size: .14rem;
+    font-family: Arial;border: .01rem solid rgba(255, 255, 255, 0);
+}
+.list ul li .list-bottom .zan{height:.25rem;width: 100%;}
+.list ul li .list-bottom .zan .left{float: left;margin-left:.1rem;width:.7rem;height:.25rem;
+    line-height:.2rem;background-color: rgba(255, 255, 255, 0);color: rgba(187, 187, 187, 1);
+    font-size: .12rem;text-align: center;font-family: Arial;border: .01rem solid rgba(255, 255, 255, 0);
+}
+.list ul li .list-bottom .zan .right{float: right;width: 1.3rem;height: .23rem;line-height: .17rem;
+    background-color: rgba(255, 255, 255, 0); color: rgb(204, 26, 26);font-size: .12rem;margin-right: .1rem;
+    text-align: center;font-family: Arial;border: .01rem solid rgba(255, 255, 255, 0);
+}
+/* .list ul li .list-bottom .zan .left span{display:inline-block;margin-right: .23rem;}
+.list ul li .list-bottom .zan .right span{display:inline-block;width: .5rem;height: .23rem;} */
+
+
+

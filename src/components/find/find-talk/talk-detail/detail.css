@@ -1,0 +1,45 @@
+.t-detail-header{width:100%;height:.5rem;}
+.t-detail-header .search .goback{width: .24rem;height: .5rem;margin-left:.1rem;font:.24rem/.24rem "";font-weight: 800;float: left;}
+.t-detail-header .search{width:3.8rem;height:.5rem;float: left;font:.12rem/.2rem "";text-align: center;}
+.t-detail-header .search span{font:.12rem/.2rem "";text-align: center;}
+.t-detail-header .shoucang{font:.24rem/.24rem "";height: .5rem;margin-left:.4rem;}
+
+.t-nav{width:100%;height:.31rem;}
+.t-nav ul{width: 100%;height: 100;display: flex;justify-content: space-between;}
+.t-nav ul li{width:1.38rem;text-align: center;font:.14rem/.31rem "";}
+.t-nav ul li a.active{color:red}
+
+.t-banner{width: 100%;overflow: hidden;font:.14rem/.2rem "";text-align: left;border-bottom:.01rem solid rgba(82, 81, 81, .5);}
+.t-banner img{display:block;width:4.14rem;height:100%;}
+.t-banner .hotel{width: 100%;height: .3rem;font:.16rem/.3rem "";text-align: center;}
+.t-banner .adress{width: 100%;height:.2rem;margin-left: .1rem;font:.14rem/.2rem "";}
+.t-banner .introduce{width: 100%;height:.2rem ;margin-left: .1rem;font:.14rem/.2rem "";}
+
+.t-guess{width:100%;overflow: hidden;}
+.t-guess h3{margin-left: 20px;height:.22rem;color: rgba(16, 16, 16, 1);font-size:.16rem;
+    text-align: left;font-family: PingFangSC-regular;margin-top:.2rem;}
+.t-guess ul li{width:100%;height:.8rem;}
+.t-guess ul li .left{float:left;margin-left:.1rem;}
+.t-guess ul li .left img{width: .6rem;height: .6rem;display: block;float: left;}
+.t-guess ul li .left .des{width: 1rem;float: left;margin-left:.1rem;}
+.t-guess ul li .left .des p{font:.12rem/.17rem "";}
+.t-guess ul li a{float:right;width:.8rem;height: .57rem;}
+.t-guess ul li .right {float:right;width:.8rem;height: .57rem;margin-right:.1rem;}
+.t-guess ul li .right .btn1{width:.8rem;height: .39rem;font:.16rem/.4rem "";text-align: center;background:rgba(59, 56, 56, 0.5);border-bottom:.01rem solid rgba(182, 173, 173, 0.5);}
+.t-guess ul li .right .btn2{width: .8rem;height:.17rem;font:.1rem/.15rem "";text-align: center;background:rgba(59, 56, 56, 0.5);}
+.t-guess a{display: block;width:1.15rem;height:.2rem;color: rgba(16, 16, 16, 1);font-size: .14rem;
+    text-align: center;font-family: PingFangSC-regular;margin-left:1.5rem;}
+
+.reservation{width:100%;overflow: hidden;}
+.reservation p{margin-left:.1rem;
+    height:.2rem;
+    color: rgba(16, 16, 16, 1);
+    font-size: .14rem;
+    text-align: left;
+    font-family: PingFangSC-regular;}
+.reservation h3{margin-left: .1rem;
+    height:.25rem;
+    color: rgba(0, 0, 0, 1);
+    font-size:.18rem;
+    text-align: left;
+    font-family: PingFangSC-regular;}

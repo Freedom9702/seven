@@ -1,0 +1,43 @@
+.travel-list{width: 100%;overflow: hidden;}
+.travel-list ul{width: 100%;height: 100%;}
+.travel-list ul li{margin-top: .2rem;width: 3.95rem;height: 1.2rem;margin-left: .1rem;background-size: 3.95rem 1.2rem;}
+.travel-list ul li .place{margin-left:.2rem;
+    width:.4rem;
+    height: .2rem;
+    line-height:.23rem;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(255, 255, 255, 1);
+    font-size: .16rem;
+    text-align: center;
+    font-family: Arial;
+    border: .01rem solid rgba(255, 255, 255, 0);
+}
+.travel-list ul li.chengdu{background-image:url(/img/chengdu.jpg)}
+.travel-list ul li.dali{background-image:url(/img/dali.jpg)}
+.travel-list ul li.wuhan{background-image:url(/img/wuhan.jpg)}
+.travel-list ul li.shanghai{background-image:url(/img/shanghai.jpg)}
+.travel-list ul li.xiamen{background-image:url(/img/xiamen.jpg)}
+.travel-list ul li .des{
+    margin-left:.2rem;
+    width: 1.4rem;
+    height: .2rem;
+    line-height: .17rem;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(255, 255, 255, 1);
+    font-size: .12rem;
+    text-align: center;
+    font-family: Arial;
+    border: .01rem solid rgba(255, 255, 255, 0);
+}
+.travel-list ul li .recommend{
+    margin-left:3.52rem;
+    width: .34rem;
+    height: 1.19rem;
+    line-height: .23rem;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(255, 255, 255, 1);
+    font-size:.16rem;
+    text-align: center;
+    font-family: Arial;
+    border: .01rem solid rgba(255, 255, 255, 0);
+}

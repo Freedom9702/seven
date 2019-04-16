@@ -1,0 +1,52 @@
+@charset "utf-8" ;
+.header{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	position: fixed;
+	left:0;
+	top: 0;
+	right:0;
+	width: 4.14rem;
+	height: .5rem;
+	background: #D2D2D2;
+	z-index: 10;
+}
+.header .home_city{
+	position: absolute;
+	left: .1rem;
+	top: .1rem;
+	width: 0.8rem;
+	height: .3rem;
+	line-height: .17rem;
+	font-size: .12rem;
+	border-radius: .05rem;
+}
+.header .home_search{
+	position: absolute;
+	left: 1.1rem;
+	top: .1rem;
+	width: 2rem;
+	height: .3rem;
+	line-height: .3rem;
+	border-radius: .38rem;
+	color: rgba(16, 16, 16, 1);
+	font-size: .14rem;
+	text-align: center;
+	font-family: Arial;
+	border: .01rem solid rgba(187, 187, 187, 1);
+}
+.header .home_btn{
+	position: absolute;
+	left: 3.24rem;
+	top: .1rem;
+	width: .8rem;
+	height: .3rem;
+	line-height: .2rem;
+	border-radius: .1rem;
+	color: rgba(16, 16, 16, 1);
+	font-size: .14rem;
+	text-align: center;
+	font-family: Arial;
+	border: 0.01rem solid rgba(187, 187, 187, 1);
+}

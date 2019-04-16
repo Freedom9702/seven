@@ -1,0 +1,86 @@
+@charset "utf-8" ;
+#login {
+    width:100%;
+    position: relative;
+    background: #fff;
+
+}
+#login .banner{
+    width: 100%;
+    height: 2.4rem;
+    background: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1554985649910&di=a3a027f2044fb5a8af4a12bb25c99fa6&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimgad%2Fpic%2Fitem%2F2e2eb9389b504fc237571d3ceedde71190ef6dfb.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+#login h1{
+    font-size: 0.3rem;
+    text-indent:0.1rem;
+}
+#login form{
+    margin:0.2rem 0 0.2rem 0.2rem;
+}
+#login form span{
+    font-size: 0.2rem;
+}
+#login form input{
+    font-size: 0.32rem;
+    margin-left: 0.2rem;
+    width: 2.8rem;
+    text-indent:0.1rem;
+    background: #ECECEC 100%;
+}
+#login form .remeber{
+    margin: 0;
+    width: 0.2rem
+}
+#login form div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#login form div span{
+    font-size: 0.012rem;
+}
+#login form div .forget{
+    margin-right: 0.2rem;
+    display: block;
+}
+#login button{
+    width: 1rem;
+    height: 0.4rem;
+    display: block;
+    margin: 0 auto;
+    outline: none;
+    border: none;
+    border-radius: 15%;
+    font: 0.16rem/0.4rem "";
+}
+#login .agree {
+    bottom: 0.2rem;
+    width: 100%;
+    margin: 1.45rem 0 0.2rem 0;
+}
+#login .agree p{
+    font-size: 0.1rem;
+    text-align: center
+}
+#login .agree ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#login .agree ul li{
+    font-size: 0.16rem;
+    line-height: 0.4rem;
+    text-align: center;
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 50%;
+    background: #ECECEC;
+    margin: 0 0.1rem;
+}
+#login .tip{
+    margin-top:0.1rem;
+    font-size: 0.18rem;
+    text-align: center;
+    color: #f11;
+}

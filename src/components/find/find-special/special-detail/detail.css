@@ -1,0 +1,30 @@
+.detail-header{
+    width:100%;height: .4rem;
+    margin-top: .03rem;}
+
+.detail-header .goback{margin-left:.07rem;margin-top:-.03rem;float: left;width:.4rem;height:.4rem;text-align: center;line-height:.4rem;font-size: .3rem}
+.detail-header .search{margin-left:.87rem;margin-top:.1rem;width:2.6rem;height:.3rem;line-height:.3rem;border-radius:.38rem;
+    color: rgba(16, 16, 16, 1);font-size:.14rem;text-align: center;font-family: Arial;border:.01rem solid rgba(187, 187, 187, 1);}
+.detail-header .search .place{width: .6rem;height: .2rem;font:.14rem/.2rem "";text-align:left;display: inline-block;}
+.detail-header .search input{font:.14rem/.3rem "";text-align:left;display: inline-block;margin-top: -.02rem;}
+.s_downlist ul{display: flex;justify-content: space-around;align-content: center;}
+.s_downlist ul li{font: .12rem/.3rem "";color: #8a8787; padding-right: .3rem;}
+.triangle{background: url(/img/xiajian.png) no-repeat right;background-size: .3rem .3rem;}
+
+.content{width:100%;overflow: hidden;}
+.content ul{width:100%;height: 100%;}
+.content ul li{height: 2rem;width:3.9rem;margin-top:.2rem;}
+.content ul li .bg{height:1.5rem;width:3.9rem;position: relative;background-size: 3.9rem 1.5rem;margin-left: .1rem;}
+.content ul li:nth-child(1) .bg{background-image:url(/img/dalitaofang.jpg);}
+.content ul li:nth-child(2) .bg{background-image:url(/img/baise.jpg);}
+.content ul li:nth-child(3) .bg{background-image:url(/img/meigai.jpg);}
+.content ul li:nth-child(4) .bg{background-image:url(/img/baise.jpg);}
+.content ul li .bg .zan{float:right;font:.2rem/.2rem "";margin: .05rem }
+.content ul li .bg .price{margin-left: 26px;width: .39rem;height: .2rem;color: rgb(255, 255, 255);font-size: .14rem;
+    text-align: left;font-family: PingFangSC-regular;position: absolute;top:1.2rem;}
+
+.content ul li .wenzi{width:2.24rem;margin-left:.1rem;height: .3rem}
+.content ul li .wenzi h3{color: rgba(16, 16, 16, 1);font:.16rem/.3rem "PingFangSC-regular";position: relative;}
+.content ul li .wenzi p{color: rgba(16, 16, 16, 1);font:.12rem/.17rem "PingFangSC-regular";text-align: left;}
+.content ul li .fenzhi{ color: rgb(192, 29, 29); 
+    position: absolute;right: 15%;}

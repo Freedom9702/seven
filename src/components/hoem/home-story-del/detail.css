@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+.td_header{position:fixed;left:0;right:0;top:0;background: #fff;z-index: 1;height:.4rem;}
+.td_header i:nth-child(1){position: absolute;left:.25rem;top: .1rem; font:700 .2rem/.3rem "";color: #bbb;}
+.td_header i:nth-child(2){position: absolute;left:3.19rem;top: .2rem; font: .2rem/.2rem "";color: #bbb;}
+.td_header i:nth-child(3){position: absolute;left:3.4rem;top: .2rem;font: .1rem/.2rem "";color: #bbb;}
+.td_header i:nth-child(4){position: absolute;left:3.8rem;top: .2rem;font: .2rem/.2rem "";}
+.td_container{width: 3.94rem;margin: 0 auto;}
+
+.td_main{margin-top: .5rem;}
+.td_main img{width: 3.95rem;height: 1.4rem;}
+.td_main h4{font: 700 .24rem/.48rem "";margin-bottom: .1rem;}
+.td_main h3{font: 700 .2rem/.4rem "";margin-bottom: .1rem;}
+.td_main p{font: .14rem/.3rem "";margin-top: .1rem;margin-bottom: .1rem;}
+
+.td_person{position: relative;height: .5rem;}
+.td_person a{width: .45rem;height: .45rem;background: url(assets/imgs/touxiang.jpg) no-repeat center;background-size: .45rem .45rem;position: absolute;left: 0;top: 0;}
+.td_infor{position: absolute;left: .45rem;top: 0;width: 3rem;}
+.td_infor span{position: absolute;left: 0.1rem;top: 0.05rem;font: .14rem/.2rem "";}
+.td_infor b{position: absolute;left: 0.1rem;top: .3rem;font: .14rem/.2rem "";}
+
+.mb_share{position: fixed;left: 0;top: 0;right: 0;bottom: 0;background:rgba(0,0,0,.5);z-index: 10;}
+
+.s_share{width: 4.14rem;background: #ECEBEB;position: fixed;left: 0;bottom: 0;z-index: 11;}
+.s_share h3{font: .12rem/.4rem "";text-align: center;margin-bottom: .2rem;}
+.s_share ul{display: flex;justify-content: space-around;align-items: center;margin-bottom: .3rem;}
+.s_share ul li{width: .47rem;height: .47rem;}
+.s_share ul li:nth-child(1){background: url(./assets/imgs/rr.png) no-repeat center;background-size: .47rem .47rem;}
+.s_share ul li:nth-child(2){background: url(./assets/imgs/wb.png) no-repeat center;background-size: .47rem .47rem;}
+.s_share ul li:nth-child(3){background: url(./assets/imgs/qq.png) no-repeat center;background-size: .47rem .47rem;}
+.s_share ul li:nth-child(4){background: url(./assets/imgs/wx.png) no-repeat center;background-size: .47rem .47rem;}
+.s_share span{display: block;width: 4.14rem;height: .35rem;font: .14rem/.35rem "";text-align: center;background: #fff;}

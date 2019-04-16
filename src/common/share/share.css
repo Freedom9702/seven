@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+.mb_share{position: fixed;left: 0;top: 0;right: 0;bottom: 0;background:rgba(0,0,0,.5);z-index: 10;}
+
+.s_share{width: 4.14rem;background: #ECEBEB;position: fixed;left: 0;bottom: 0;z-index: 11;}
+.s_share h3{font: .12rem/.4rem "";text-align: center;margin-bottom: .2rem;}
+.s_share ul{display: flex;justify-content: space-around;align-items: center;margin-bottom: .3rem;}
+.s_share ul li{width: .47rem;height: .47rem;}
+.s_share ul li:nth-child(1){background: url(./assets/imgs/rr.png) no-repeat center;background-size: .47rem .47rem;}
+.s_share ul li:nth-child(2){background: url(./assets/imgs/wb.png) no-repeat center;background-size: .47rem .47rem;}
+.s_share ul li:nth-child(3){background: url(./assets/imgs/qq.png) no-repeat center;background-size: .47rem .47rem;}
+.s_share ul li:nth-child(4){background: url(./assets/imgs/wx.png) no-repeat center;background-size: .47rem .47rem;}
+.s_share span{display: block;width: 4.14rem;height: .35rem;font: .14rem/.35rem "";text-align: center;background: #fff;}

@@ -1,0 +1,9 @@
+
+#foot{position: fixed;left: 0;bottom: 0;}
+#foot ul{display: flex;}
+#foot ul li{width: 1.035rem;height: .56rem;text-align: center;}
+#foot ul li:nth-child(odd){background: #D2D2D2;}
+#foot ul li:nth-child(even){background: #B9B9B9;}
+#foot ul li a{display: block;width: .24rem;height: .24rem;margin: .1rem auto 0;}
+#foot ul li a img{display: block;width: .24rem;height: .24rem;}
+#foot ul li p{font: .14rem/.2rem "";color: #101010;}
