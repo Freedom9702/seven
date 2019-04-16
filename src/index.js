@@ -8,6 +8,9 @@ import {Provider} from 'react-redux';
 
 import {BrowserRouter,Route} from 'react-router-dom' //引用路由
 //暴露全局 baseUrl
+
+
+//dasjdkjaskaskflaskfklsalkfa
 import config from './config'
 
 window.baseUrl = config.baseUrl.http;

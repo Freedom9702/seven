@@ -1,0 +1,13 @@
+GitHub新建项目仓库，上传项目到仓库，
+    git init
+    git add *
+    git commit -m "first commit"
+    git remote add origin https://github.com/Freedom9702/seven.git
+    输入账号密码
+在本地修改项目：
+    个人：暂存所有更改，全部提交->推送->就是上传自己修改的代码到主分支了。
+    多人项目协作：
+        添加写作者：
+        Settings ->Collaborators:输入协作者的git名，邀请
+
+
