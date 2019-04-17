@@ -30,6 +30,8 @@ const reducer = (state,{type,payload}) => {
       return {...state, detail:payload};
     case types.CHECK_USER:
       return {...state, user:payload};
+      case types.CHECK_ORDER:
+      return {...state, order:payload};
     default:
       return state;
   }

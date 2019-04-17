@@ -4,7 +4,7 @@ export const VIEW_LOADING = 'VIEW_LOADING';
 export const VIEW_SHARE = 'VIEW_SHARE';
 export const CLEAR_PRODUCT = 'CLEAR_PRODUCT';
 export const CLEAR_DETAIL = 'CLEAR_DETAIL';
-
+export const CHECK_ORDER = 'CHECK_ORDER';
 
 export const UPDATE_DETAIL = 'UPDATE_DETAIL';
 export const UPDATE_PRODUCT = 'UPDATE_PRODUCT';

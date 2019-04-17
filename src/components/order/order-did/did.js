@@ -16,11 +16,15 @@ import { UPDATE_ORDER, UPDATE_PRODUCT, UPDATE_DETAIL} from '../../../store/types
 class Did extends React.Component{
     constructor(props){
         super();
-        // props.get({q:"老王"});//发送action
-        // props.getHotel({dataName:"",id:""});
+        // console.log(props.user.data.username)
+        let username = props.user.data.username;
+        props.get({q:username});
+        console.log(props)
+        props.getHotel();
       }
     render(){
         let {page_data} = this.props.order;
+        console.log()
         return(
             <div className="o-list">
                 <ul>
@@ -45,17 +49,11 @@ class Did extends React.Component{
             </div>
         )
     }
-    componentDidMount(props){
-        this.props.get({q:"张三"});
-        this.props.getHotel();
-        // setTimeout(()=>{console.log(this.props.order)},100)
-        
-        
-    }
 }
 const initMapStateToProps=state=>({
     order:state.order, 
-    order1:state.detail
+    order1:state.detail,
+    user:state.user
   });
   
   const initMapDispatchToProps=dispatch=>({
@@ -63,15 +61,17 @@ const initMapStateToProps=state=>({
       url:`/api/order`,
       dataName:'finished',
       q:q,
-      count:40,
       type:UPDATE_ORDER,
       stateName:'order'
     })) ,
 
-    getHotel:()=>dispatch(detail({
-        url:`/api/detail`,
-        id:'5cb09a7f80ad2c57b36518d3',
-        dataName:'xiamen',
+    getHotel:(dataName,id)=>dispatch(detail({
+        // url:`/api/detail`,
+        // id:'5cb09a7f80ad2c57b36518d3',
+        // dataName:'xiamen',
+        url:`api/product`,
+        dataName,dataName,
+        id:id,
         type:UPDATE_DETAIL,
     }))
   });
