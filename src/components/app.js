@@ -50,12 +50,12 @@ class App extends React.Component{
         let {viewFoot} =  this.props;
         let path = nextProps.location.pathname;
         // console.log('app',path);
-        if(/hotel|hotel_detail/.test(path)){
-           viewFoot(false)
-        }
-        if(/home|find|order/.test(path)){
-            viewFoot(true)
-        }
+        // if(/hotel|hotel_detail/.test(path)){
+        //    viewFoot(false)
+        // }
+        // if(/home|find|order/.test(path)){
+        //     viewFoot(true)
+        // }
     }
     render(){
         let {bLoading,bFoot} = this.props;

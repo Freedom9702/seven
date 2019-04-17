@@ -1,5 +1,5 @@
 
-export const order = ({url,dataName,start='',count='',type,stateName,q}) => dispatch=>{
+export const order = ({url,dataName,start='',count='40',type,stateName,q}) => dispatch=>{
   // baseUrl = https://uncle9.top
   // url /api/product
   // 必选params dataName=home

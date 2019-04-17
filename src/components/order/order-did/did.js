@@ -10,17 +10,17 @@ import { detail } from '../../../store/actions/detail'
 
 
 
-
 import { UPDATE_ORDER, UPDATE_PRODUCT, UPDATE_DETAIL} from '../../../store/types'
 
 class Did extends React.Component{
     constructor(props){
         super();
         // console.log(props.user.data.username)
+        this.data = querystring.parse(props.location.search).dataName;
         let username = props.user.data.username;
         props.get({q:username});
         console.log(props)
-        props.getHotel();
+        // props.getHotel();
       }
     render(){
         let {page_data} = this.props.order;
@@ -39,7 +39,7 @@ class Did extends React.Component{
                                     <p>{item.detail.num}间，{item.detail.roomlevel}</p>
                                     <p>使用时间：{item.detail.usetime}</p>
                                     <p>总价：￥{item.detail.totalprice}</p>
-                                    <Link to={{pathname:`/hotel/${item._id}`}}className="angin">再次预订</Link>
+                                    <Link to={{pathname:`/hotel/${item.detail.htId}`,search:querystring.stringify({dataName:item.detail.htdataName})}}className="angin">再次预订</Link>
                                     {/* <Link to={{pathname:`/hotel/${item._id}`,search:querystring.stringify({dataName:_id})}}></Link> */}
                                 </div>
                             </li>
@@ -63,17 +63,9 @@ const initMapStateToProps=state=>({
       q:q,
       type:UPDATE_ORDER,
       stateName:'order'
-    })) ,
+    })) 
 
-    getHotel:(dataName,id)=>dispatch(detail({
-        // url:`/api/detail`,
-        // id:'5cb09a7f80ad2c57b36518d3',
-        // dataName:'xiamen',
-        url:`api/product`,
-        dataName,dataName,
-        id:id,
-        type:UPDATE_DETAIL,
-    }))
+    
   });
   
   export default connect(

@@ -11,11 +11,11 @@ export default class Order extends React.Component{
             <div>
                 <div className="o-header">订单详情</div>
                 <div className="oo-btn">
-                    <NavLink to="/order/order-ing" className="btn1">进行中的</NavLink>
+                    <NavLink to="/order/order-did" className="btn1">进行中的</NavLink>
                     <NavLink to="/order/order-did" className="btn2">已完成的</NavLink>
                 </div>
                 <Switch>
-                    <Route path="/order/order-ing" component={OrderIng}/>   
+                    
                     <Route path="/order/order-did" component={OrderDid}/>
                     <Redirect exact from="/order" to="/order/order-did"/>
                 </Switch>

@@ -6,7 +6,7 @@ html{overflow-y:scroll; overflow-x: hidden;font-size:24.1546vw;}
 body,div,ul,li,span,img,input,form{ margin:0; padding:0;}
 body,p,h1,h2,h3,h4,h5,h6,ul,ol,dl,li,dd{ margin:0;}
 ul,ol{padding:0;}
-body{ background:#f2f4f5;}
+body{ background:#f2f4f5;margin-bottom: .8rem;}
 
 body{ font-size:12px;font-family:"冬青黑体简体中文","微软雅黑","宋体",Arial,sans-serif;}
 a{ text-decoration:none; color:#666666; }

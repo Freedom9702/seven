@@ -31,27 +31,27 @@ class PayMoney extends React.Component{
         // {title,des,time,price,hotelname,roomlevel,num,usetime,totalprice,htdataName,htId}
         
         // console.log(props.detail)
-        var username = props.user.data.username;   //登录的用户名
-        var roomlevel = '商务套房';  //roomlevel
-        var num = 1; //num
-        var usetime = 1; //usetime
-        var htdataName =querystring.parse(props.location.search).dataName;//dataName
+        this.username = props.user.data.username;   //登录的用户名
+        this.roomlevel = '商务套房';  //roomlevel
+        this.num = 1; //num
+        this.usetime = 1; //usetime
+        this.htdataName =querystring.parse(props.location.search).dataName;//dataName
         if(props.detail){
-        var htId = props.detail.page_data._id
-        var des = props.detail.page_data.des
-        var hotelname = props.detail.page_data.title
-        var time =  props.detail.page_data.time
-        var price = props.detail.page_data.detail.price
-        var totalprice = num * price
+        this.htId = props.detail.page_data._id
+        this.des = props.detail.page_data.des
+        this.hotelname = props.detail.page_data.title
+        this.price = props.detail.page_data.detail.price
+        this.totalprice = this.num * this.price
         
         } 
-       console.log(username,des,time,hotelname,roomlevel,num,usetime,htId,htdataName,totalprice,price)
+       
         
-        props.write({
-            username,des,time,hotelname,roomlevel,num,usetime,htId,htdataName,totalprice,price
-        })
+        // props.write({
+        //     username,des,hotelname,roomlevel,num,usetime,htId,htdataName,totalprice,price
+        // })
       }
     render(){
+        console.log(this.username,this.des,this.hotelname,this.roomlevel,this.num,this.usetime,this.htId,this.htdataName,this.totalprice,this.price)
         let {history,match} = this.props;
         let {page_data} = this.props.hotel;
         return (
@@ -83,7 +83,7 @@ class PayMoney extends React.Component{
                     </li>
                 </ul>
                 {/* <Link to={{pathname:`/order/${match.params.id}`,search:querystring.stringify({dataName:this.data})}} className="confirm" >确认支付</Link> */}
-                <Link to={{pathname:`/order/${match.params.id}`,search:querystring.stringify({dataName:this.data})}} className="confirm" onClick={this.write}>确认支付</Link>
+                <Link to={{pathname:`/order/order-did/${match.params.id}`,search:querystring.stringify({dataName:this.data})}} className="confirm" onClick={()=>{this.props.write(this.username,this.des,this.hotelname,this.roomlevel,this.num,this.usetime,this.htId,this.htdataName,this.totalprice,this.price)}}>确认支付</Link>
                 {/* <a className="confirm" href="#">确认支付</a> */}
             </div>
         )
@@ -107,12 +107,11 @@ const initMapDispatchToProps=dispatch=>({
     // write:()=>{},
 
 
-    write:(username,des,time,hotelname,roomlevel,num,usetime,htId,htdataName,totalprice,price)=>dispatch(write({
+    write:(username,des,hotelname,roomlevel,num,usetime,htId,htdataName,totalprice,price)=>dispatch(write({
         url:`/api/ordercheck`,
         dataName:'finished',
         title:username,
         des,
-        time,
         price,
         hotelname,
         roomlevel,
